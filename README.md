@@ -52,9 +52,7 @@ Lorenzetti-Shower-Simulation/
 │   ├── calibration/
 │   └── evaluation/
 │
-└── docs/
-    ├── Simas_Filho_2025_J._Inst._20_P06051_Lorenzetti_Calibration.pdf (Calibration using Lorenzetti simulations)
-    └── 2023_Lorenzetti_CPC.pdf (Original Lorenzetti Shower description)
+└── docs/    
 
 ```
 ---
