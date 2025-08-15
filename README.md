@@ -42,7 +42,6 @@ Train regression models (e.g. Regression, Boosted Decision Trees, Neural Network
 ```
 Lorenzetti-Shower-Simulation/
 ├── README.txt
-├── LICENSE
 ├── data/
 │   ├── Lorenzetti_simulation_raw_20250815.csv
 │
@@ -54,8 +53,8 @@ Lorenzetti-Shower-Simulation/
 │   └── evaluation/
 │
 └── docs/
-    ├── Simas_Filho_2025_J._Inst._20_P06051_Lorenzetti_Calibration.pdf   <-- Calibration using Lorenzetti simulations
-    └── 2023_Lorenzetti_CPC.pdf                                        <-- Original Lorenzetti Shower description
+    ├── Simas_Filho_2025_J._Inst._20_P06051_Lorenzetti_Calibration.pdf (Calibration using Lorenzetti simulations)
+    └── 2023_Lorenzetti_CPC.pdf (Original Lorenzetti Shower description)
 
 ```
 ---
