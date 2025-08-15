@@ -72,8 +72,8 @@ Lorenzetti-Shower-Simulation/
 
 If you use this dataset or code, please cite:
 
-[1] Lorenzetti Shower Simulation Framework, *Comput. Phys. Commun.*, vol. 184, pp. 2636–2644, 2013. doi: https://doi.org/10.1016/j.cpc.2023.108671. (PDF: 2023_Lorenzetti_CPC.pdf)
+[1]  Araújo, M. V et al., “Lorenzetti Showers -A general-purpose framework for supporting signal reconstruction and triggering with calorimeters”, *Comput. Phys. Commun.*, vol. 184, pp. 2636–2644, 2013. doi: https://doi.org/10.1016/j.cpc.2023.108671. (PDF: 2023_Lorenzetti_CPC.pdf)
 
-[2] Simas Filho et al., “Real-Time Energy Calibration for ATLAS using Lorenzetti Simulated Showers,” *JINST*, vol. 20, P06051, 2025. doi: https://dx.doi.org/10.1088/1748-0221/20/06/P06051. (PDF: Simas_Filho_2025_J._Inst._20_P06051_Lorenzetti_Calibration.pdf)
+[2] Simas Filho, E. F. et al., “Ring-like calorimeter information for energy calibration in electron trigger at a highly segmented detector using gradient boosted decision trees”, *JINST*, vol. 20, P06051, 2025. doi: https://dx.doi.org/10.1088/1748-0221/20/06/P06051. (PDF: Simas_Filho_2025_J._Inst._20_P06051_Lorenzetti_Calibration.pdf)
 
 
