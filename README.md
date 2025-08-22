@@ -69,7 +69,7 @@ Lorenzetti-Shower-Simulation/
 
 If you use this dataset or code, please cite:
 
-[1]  Araújo, M. V et al., “Lorenzetti Showers -A general-purpose framework for supporting signal reconstruction and triggering with calorimeters”, *Comput. Phys. Commun.*, vol. 184, pp. 2636–2644, 2013. doi: https://doi.org/10.1016/j.cpc.2023.108671. (PDF: 2023_Lorenzetti_CPC.pdf)
+[1] J. V. da Fonseca Pinto, jlieberm, W. Freund, G. G. Milan, M. V. de Araújo, and G. Gonçalves, lorenzetti-hep/lorenzetti: Version 2.0.0. Zenodo, Dec. 2022. doi: https://doi.org/10.5281/zenodo.7494463. Available: https://github.com/lorenzetti-hep/lorenzetti.
 
 [2] Simas Filho, E. F. et al., “Ring-like calorimeter information for energy calibration in electron trigger at a highly segmented detector using gradient boosted decision trees”, *JINST*, vol. 20, P06051, 2025. doi: https://dx.doi.org/10.1088/1748-0221/20/06/P06051. (PDF: Simas_Filho_2025_J._Inst._20_P06051_Lorenzetti_Calibration.pdf)
 
