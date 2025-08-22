@@ -1,4 +1,4 @@
-# Lorenzetti Shower Simulation — ATLAS HLT Energy Calibration
+# Lorenzetti Shower Simulation
 
 This repository provides a dataset of simulated electromagnetic showers generated with the Lorenzetti Showers framework [1]. For the present study, the framework was configured to reproduce the geometry, materials, and segmentation of the ATLAS electromagnetic calorimeter, used here as a representative case study. The dataset accompanies the methodology presented in [2], which addresses real-time energy calibration in fast online reconstruction.
 
