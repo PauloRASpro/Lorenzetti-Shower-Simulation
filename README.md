@@ -1,7 +1,6 @@
 # Lorenzetti Shower Simulation — ATLAS HLT Energy Calibration
 
-This repository contains a dataset of simulated electromagnetic showers derived from the **Lorenzetti Shower** generator [1], configured to emulate the response of the **ATLAS** Fast Calorimeter trigger (**Ringer**) employed in the **High Level Trigger (HLT)**.  
-It accompanies the methodology described in [2], regarding real-time energy calibration of the fast online reconstruction.
+This repository provides a dataset of simulated electromagnetic showers generated with the Lorenzetti Showers framework [1]. For the present study, the framework was configured to reproduce the geometry, materials, and segmentation of the ATLAS electromagnetic calorimeter, used here as a representative case study. The dataset accompanies the methodology presented in [2], which addresses real-time energy calibration in fast online reconstruction.
 
 ---
 
