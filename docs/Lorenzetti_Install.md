@@ -176,7 +176,7 @@ Quick check
 
 ## 6. RUN THE SIMULATIONS (Example)
 
-
+In this section, we present an example simulation using an electron gun, where the transverse energy spans from 5 to 500 GeV and the cluster pseudorapidity (η) ranges from −2.47 to 2.47. To avoid known detector non-uniformities, the calorimeter crack regions are excluded—specifically, −1.52 to −1.37 and 1.37 to 1.52 in η—so that the generated events sample only the well-instrumented barrel and endcap acceptance.
 
 The standard sequence is EVT → HIT → ESD → AOD.
 
