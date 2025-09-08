@@ -52,7 +52,7 @@ Lorenzetti-Shower-Simulation/
 │   └── evaluation/
 │
 └── docs/
-     └── Lorenzetti_install.md
+     └── Lorenzetti_install.md 
 
 ```
 ---
