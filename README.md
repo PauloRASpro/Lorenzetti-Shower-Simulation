@@ -51,7 +51,8 @@ Lorenzetti-Shower-Simulation/
 │   ├── calibration/
 │   └── evaluation/
 │
-└── docs/    
+└── docs/
+     └── Lorenzetti_install.md
 
 ```
 ---
