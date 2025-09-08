@@ -174,7 +174,9 @@ Quick check
 
 ---
 
-## 6. RUN THE SIMULATIONS
+## 6. RUN THE SIMULATIONS (Example)
+
+
 
 The standard sequence is EVT → HIT → ESD → AOD.
 
@@ -182,11 +184,12 @@ The standard sequence is EVT → HIT → ESD → AOD.
 
 Electron gun over eta ranges (excluding the 1.37–1.52 crack)
 
-`python build/scripts/filters/gen_single.py   --particle Electron   --nov 100   --output-file EVT_barrel.root   --energy-min 5 --energy-max 200   --eta-min -1.37 --eta-max 1.37   --seed 1001`
 
 `python build/scripts/filters/gen_single.py   --particle Electron   --nov 100   --output-file EVT_endcap_neg.root   --energy-min 5 --energy-max 200   --eta-min -2.47 --eta-max -1.52   --seed 1001`
 
-`python build/scripts/filters/gen_single.py   --particle Electron   --nov 100   --output-file EVT_endcap_pos.root   --energy-min 5 --energy-max 200   --eta-min 1.52 --eta-max 2.47   --seed 1001`
+`python build/scripts/filters/gen_single.py   --particle Electron   --nov 100   --output-file EVT_barrel.root   --energy-min 5 --energy-max 200   --eta-min -1.37 --eta-max 1.37   --seed 1002`
+
+`python build/scripts/filters/gen_single.py   --particle Electron   --nov 100   --output-file EVT_endcap_pos.root   --energy-min 5 --energy-max 200   --eta-min 1.52 --eta-max 2.47   --seed 1003`
 
 Merge into a single EVT
 
