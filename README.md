@@ -2,6 +2,8 @@
 
 This repository provides a dataset of simulated electromagnetic showers generated with the Lorenzetti Showers framework [1]. For the present study, the framework was configured to reproduce the geometry, materials, and segmentation of the ATLAS electromagnetic calorimeter, used here as a representative case study. The dataset accompanies the methodology presented in [2], which addresses real-time energy calibration in fast online reconstruction.
 
+Lorenzetti Shower installation on google cloud VM procedure in [link](https://github.com/PauloRASpro/Lorenzetti-Shower-Simulation/blob/main/docs/Lorenzetti_Install.md).
+
 ---
 
 ## Dataset Overview
