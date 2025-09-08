@@ -7,6 +7,7 @@ simulation chain (EVT → HIT → ESD → AOD).
 
 Summary: Python venv → system dependencies → Docker → image lorenzetti/lorenzetti:latest → build → simulations.
 
+---
 
 ## TABLE OF CONTENTS
 
@@ -19,7 +20,7 @@ Summary: Python venv → system dependencies → Docker → image lorenzetti/lor
 6. Run simulations
 7. License
 8. References
-
+---
 
 ## 1. REQUIREMENTS
 
@@ -27,7 +28,7 @@ Summary: Python venv → system dependencies → Docker → image lorenzetti/lor
 - User with sudo privileges.
 - SSH enabled to copy files off the VM if needed.
 - ~100 GB disk recommended (ROOT, Geant4, artifacts and outputs).
-
+---
 
 ## 2. PYTHON ENVIRONMENT (OPTIONAL)
 
@@ -56,6 +57,7 @@ OBS.: How to reactivate later:
   
 `source ~/.venvs/base/bin/activate`
 
+---
 
 ## 3. SYSTEM DEPENDENCIES
 
@@ -78,6 +80,7 @@ OBS.: How to reactivate later:
 
 `pip install numpy pandas scikit-learn seaborn jupyterlab tqdm atlas-mpl-style twine pyhepmc prettytable expand_folders rich_argparse loguru`
 
+---
 
 ## 4. DOCKER (OFFICIAL INSTALL)
 
@@ -125,6 +128,7 @@ OBS.: How to reactivate later:
 
 `docker run --rm hello-world`
 
+---
 
 ## 5. PULL LORENZETTI IMAGE + BUILD
 
@@ -168,6 +172,7 @@ Quick check
 
 `python3 -c "import filters"`
 
+---
 
 ## 6. RUN THE SIMULATIONS
 
@@ -227,14 +232,17 @@ Where are the output files?
 - If you ran with -v "$PWD":/work -w /work, all outputs (EVT.root, HIT.root, ESD.root, AOD.root, etc.)
   will be in the host directory where you started docker run.
 
+---
 
 ## 7. LICENSE
 
 Lorenzetti software follows the official repository's license.
 
+---
 
 ## 8. REFERENCES
 
 - Official repository: https://github.com/lorenzetti-hep/lorenzetti
 - Docker image: lorenzetti/lorenzetti:latest on Docker Hub
 
+---
