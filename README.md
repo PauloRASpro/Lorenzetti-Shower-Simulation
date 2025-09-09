@@ -31,9 +31,9 @@ $E_{\text{true}} = \alpha \cdot E_{\text{fast}}$
 
 ## Calibration Objective
 
-Train regression models (e.g. Regression, Boosted Decision Trees, Neural Networks) to predict $\alpha_text{calib}$ using the fast-observable calorimeter quantities, enabling **online HLT energy calibration**. Calibration performance is assessed via:
+Train regression models (e.g. Regression, Boosted Decision Trees, Neural Networks) to predict $\alpha_\text{calib}$ using the fast-observable calorimeter quantities, enabling **online HLT energy calibration**. Calibration performance is assessed via:
 
-- Bias distribution of calibrated energy: $E_{\text{calib}} = \alpha_text{calib} \cdot E_{\text{fast}} \approx E_{\text{true}}$
+- Bias distribution of calibrated energy: $E_{\text{calib}} = \alpha_\text{calib} \cdot E_{\text{fast}} \approx E_{\text{true}}$
 - Paired statistical tests (t-test, Wilcoxon, F-test)
 - Resolution improvements over fast reconstruction baseline
 
