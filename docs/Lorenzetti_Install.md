@@ -157,16 +157,21 @@ Inside the container:
 
 ### 5.5. Clone and build the repository
 
-`git clone https://github.com/lorenzetti-hep/lorenzetti.git && cd lorenzetti
-make
-rm -rf build/lib/
-source build/lzt_setup.sh`
+`git clone https://github.com/lorenzetti-hep/lorenzetti.git && cd lorenzetti`
+
+`make`
+
+`rm -rf build/lib/`
+
+`source build/lzt_setup.sh`
 
 ### 5.6. Export paths (ensure the build is on PATH/LD)
 
-`export PYTHONPATH=$(pwd)/build/python:$PYTHONPATH
-export LD_LIBRARY_PATH=$(pwd)/build:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH`
+`export PYTHONPATH=$(pwd)/build/python:$PYTHONPATH`
+
+`export LD_LIBRARY_PATH=$(pwd)/build:$LD_LIBRARY_PATH`
+
+`export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH`
 
 Quick check
 
