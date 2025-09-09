@@ -30,7 +30,7 @@ Summary: Python venv → system dependencies → Docker → image lorenzetti/lor
 - ~100 GB disk recommended (ROOT, Geant4, artifacts and outputs).
 ---
 
-## 2. PYTHON ENVIRONMENT (OPTIONAL)
+## 2. PYTHON ENVIRONMENT
 
 ### 2.1. Check Python 3
 
