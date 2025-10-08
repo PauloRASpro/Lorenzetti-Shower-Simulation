@@ -24,7 +24,7 @@ Summary: Python venv → system dependencies → Docker → image lorenzetti/lor
 
 ## 1. REQUIREMENTS
 
-- Linux VM with Ubuntu 22.04 LTS (tested on Google Compute Engine).
+- Linux VM with Ubuntu 22.04 LTS, tested on Google Compute Engine - e2-highmem-4 (4 vCPUs, 32 GB RAM).
 - User with sudo privileges.
 - SSH enabled to copy files off the VM if needed.
 - ~100 GB disk recommended (ROOT, Geant4, artifacts and outputs).
