@@ -238,7 +238,9 @@ Ensure the simulation env (often set in the image already):
 ### 6.3. Shower propagation (HIT)
 
 
-`simu_trf.py   --enable-magnetic-field   -i EVT.root   -o HIT.root   --overwrite`
+`simu_trf.py   --enable-magnetic-field   -i EVT.root   -o HIT.root   -nt 4   --overwrite`
+
+OBS.: `-nt 4` uses the máximum number of threads available in the server.
 
 
 ### 6.4. Digitization (ESD)
