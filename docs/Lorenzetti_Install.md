@@ -208,9 +208,9 @@ Backup the script
 
 Patch: ensure input_file/output_file are not lists
 
-`sed -i 's|args.input_file = Path(args.input_file)|    # --- begin hotfix: argparse may give a list even for single -i ---    if isinstance(args.input_file, list):        if len(args.input_file) != 1:            raise SystemExit("Provide exactly one -i INPUT_FILE");        args.input_file = args.input_file[0]    args.input_file = Path(args.input_file)|' build/scripts/reco/simu_trf.py`
+`sed -i -E $'s|^([[:space:]]*)args\\.input_file = Path\\(args\\.input_file\\)|\\1# --- begin hotfix: argparse may give a list even for single -i ---\\n\\1if isinstance(args.input_file, (list, tuple)):\\n\\1    if len(args.input_file) != 1:\\n\\1        raise SystemExit("Provide exactly one -i INPUT_FILE")\\n\\1    args.input_file = args.input_file[0]\\n\\1args.input_file = Path(args.input_file)|' build/scripts/reco/simu_trf.py`
 
-`sed -i 's|args.output_file = Path(args.output_file)|    if isinstance(args.output_file, list):        if len(args.output_file) != 1:            raise SystemExit("Provide exactly one -o OUTPUT_FILE");        args.output_file = args.output_file[0]    args.output_file = Path(args.output_file)|' build/scripts/reco/simu_trf.py`
+`sed -i -E $'s|^([[:space:]]*)args\\.output_file = Path\\(args\\.output_file\\)|\\1# --- begin hotfix: argparse may give a list even for single -o ---\\n\\1if isinstance(args.output_file, (list, tuple)):\\n\\1    if len(args.output_file) != 1:\\n\\1        raise SystemExit("Provide exactly one -o OUTPUT_FILE")\\n\\1    args.output_file = args.output_file[0]\\n\\1args.output_file = Path(args.output_file)|' build/scripts/reco/simu_trf.py`
 
 Ensure the simulation env (often set in the image already):
 
@@ -221,7 +221,8 @@ Ensure the simulation env (often set in the image already):
 ### 6.3. Shower propagation (HIT)
 
 
-`simu_trf.py   --enable-magnetic-field   -i EVT.root   -o HIT.root   --nov 100   -nt 8   --overwrite`
+`simu_trf.py   --enable-magnetic-field   -i EVT.root   -o HIT.root   --overwrite`
+
 
 ### 6.4. Digitization (ESD)
 
