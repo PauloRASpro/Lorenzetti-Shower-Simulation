@@ -145,9 +145,9 @@ This ensures your results survive container restarts.
 
 ### 5.3. Create a working directory on the host (to persist outputs)
 
-`mkdir -p ~/lorenzetti_work`
+`mkdir -p ~/lorenzetti`
 
-`cd ~/lorenzetti_work`
+`cd ~/lorenzetti`
 
 ### 5.4. Start an interactive shell with the volume mounted
 
@@ -176,6 +176,23 @@ Inside the container:
 Quick check
 
 `python3 -c "import filters"`
+
+Now you can run the simulations in step 6.
+
+
+### 5.7. Resuming after leaving the server
+
+After step 5.6 the framework is fully set up. If you disconnect from the server, you can bring Lorenzetti back online by launching the container from your `lorenzetti` working directory:
+
+`docker run --rm -it -v "$PWD":/work -w /work lorenzetti/lorenzetti:latest bash`
+
+Inside the container:
+
+`cd lorenzetti`
+
+`source build/lzt_setup.sh`
+
+This reinitializes the Lorenzetti environment. You can now run simulations as usual.
 
 ---
 
