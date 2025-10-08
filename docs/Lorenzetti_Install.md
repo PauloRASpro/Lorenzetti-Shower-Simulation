@@ -159,9 +159,9 @@ Inside the container:
 
 `git clone https://github.com/lorenzetti-hep/lorenzetti.git && cd lorenzetti`
 
-`make`
-
 `rm -rf build/lib/`
+
+`make`
 
 `source build/lzt_setup.sh`
 
@@ -214,8 +214,9 @@ Patch: ensure input_file/output_file are not lists
 
 Ensure the simulation env (often set in the image already):
 
-`[ -f /opt/root/bin/thisroot.sh ] && source /opt/root/bin/thisroot.sh
-[ -f /opt/geant4/bin/geant4.sh ] && source /opt/geant4/bin/geant4.sh`
+`[ -f /opt/root/bin/thisroot.sh ] && source /opt/root/bin/thisroot.sh`
+
+`[ -f /opt/geant4/bin/geant4.sh ] && source /opt/geant4/bin/geant4.sh`
 
 ### 6.3. Shower propagation (HIT)
 
