@@ -262,13 +262,13 @@ Where are the output files?
   will be in the host directory where you started docker run.
 
 
-### 6.6. Optional batch simulation (if having problems simulating as above)
+### 6.6. Optional: Batch simulation (if you encounter issues with the steps above)
 
 `rm -rf *.root*`
 
-`rm -rf hora_inicial.txt`
+`rm -rf start_time.txt`
 
-`rm -rf hora_final.txt`
+`rm -rf end_time.txt`
 
 `date "+%Y-%m-%d %H:%M:%S %Z" > start_time.txt`
 
