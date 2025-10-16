@@ -315,6 +315,22 @@ Where are the output files?
 
 `printf "%02d:%02d:%02d\n" $((dif/3600)) $(((dif%3600)/60)) $((dif%60))`
 
+### 6.7. Optional: Persistent Run (if google cloud finishes the run as result of connection loss)
+
+Install Tmux:
+
+`sudo apt-get update && sudo apt-get install -y tmux`
+
+Run Tmux:
+
+`tmux new -s lzt`
+
+Then proceed steps 5.7 and 6.6.
+
+If the connection is lost, then restart the server and:
+
+`tmux attach -t lzt`
+
 ---
 
 ## 7. LICENSE
