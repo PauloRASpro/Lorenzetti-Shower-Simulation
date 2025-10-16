@@ -273,7 +273,7 @@ Where are the output files?
 `date "+%Y-%m-%d %H:%M:%S %Z" > start_time.txt`
 
 
-100000 events batch simulation
+300.000 events batch simulation (100.000 loops, each loop are going to produce 30 events)
 
 `n=100000`
 
