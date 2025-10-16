@@ -261,6 +261,60 @@ Where are the output files?
 - If you ran with -v "$PWD":/work -w /work, all outputs (EVT.root, HIT.root, ESD.root, AOD.root, etc.)
   will be in the host directory where you started docker run.
 
+
+### 6.6. Optional batch simulation (if having problems simulating as above)
+
+`rm -rf *.root*`
+
+`rm -rf hora_inicial.txt`
+
+`rm -rf hora_final.txt`
+
+`date "+%Y-%m-%d %H:%M:%S %Z" > start_time.txt`
+
+
+100000 events batch simulation
+
+`n=100000`
+
+`for i in $(seq 0 $n); do`    	
+
+`  echo "=== Batch $i ==="`
+
+`  python build/scripts/filters/gen_single.py   --particle Electron   --nov 10   --output-file EVT_endcap_neg_${i}.root   --energy-min 5 --energy-max 500   --eta-min -2.47 --eta-max -1.52   --seed $((1000 + n*i + 1))`
+
+`  python build/scripts/filters/gen_single.py   --particle Electron   --nov 10   --output-file EVT_barrel_${i}.root   --energy-min 5 --energy-max 500   --eta-min -1.37 --eta-max 1.37   --seed $((1000 + n*i + 2))`
+
+`  python build/scripts/filters/gen_single.py   --particle Electron   --nov 10   --output-file EVT_endcap_pos_${i}.root   --energy-min 5 --energy-max 500   --eta-min 1.52 --eta-max 2.47   --seed $((1000 + n*i + 3))`
+
+`  hadd -f EVT_${i}.root      EVT_barrel_${i}.root      EVT_endcap_neg_${i}.root      EVT_endcap_pos_${i}.root`
+	
+`  simu_trf.py --enable-magnetic-field -i EVT_${i}.root -o HIT_${i}.root --overwrite`
+
+`  digit_trf.py -i HIT_${i}.root -o ESD_${i}.root --overwrite`
+
+`  reco_trf.py -i ESD_${i}.root -o AOD_batch_${i}.root --overwrite`
+
+`  rm -f EVT*.root* HIT*.root* ESD*.root*`
+
+`done`
+
+`hadd -f AOD.root AOD_batch_*.root`
+
+`rm -f AOD_batch_*.root`
+
+`date "+%Y-%m-%d %H:%M:%S %Z" > end_time.txt`
+
+`cat start_time.txt`
+
+`cat end_time.txt`
+
+`ini=$(date -u -d "$(cat start_time.txt)" +%s)`
+
+`fim=$(date -u -d "$(cat end_time.txt)" +%s); dif=$((fim-ini))`
+
+`printf "%02d:%02d:%02d\n" $((dif/3600)) $(((dif%3600)/60)) $((dif%60))`
+
 ---
 
 ## 7. LICENSE
