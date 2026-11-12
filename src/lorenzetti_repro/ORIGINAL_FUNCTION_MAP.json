@@ -1,0 +1,320 @@
+{
+  "plota_data_label": {
+    "original_cell_index": 11,
+    "source_sha256": "894d3197702676f88d827580ed8a6895126269feb29fcabd87fa5a0a72c26f02",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "plota_data_label_ax": {
+    "original_cell_index": 12,
+    "source_sha256": "2daaec519ace6ba10e9483e3340d1bfb5970834143c1f8ea7887c4c6a408c108",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "comparison_boxplot": {
+    "original_cell_index": 77,
+    "source_sha256": "ff2c959c1d10947b92be79058fe58be67aece6398e95dfa7c0444d1843c141e8",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "comparison_times": {
+    "original_cell_index": 80,
+    "source_sha256": "6b699014f8aa94f68ec278d774433164c7b5227d3935b45a772be398c182c92f",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "_build_color_dict": {
+    "original_cell_index": 83,
+    "source_sha256": "f55dd2efb6883a07e3a2bcca3b651341d4b12937833583dcd3d6df96da2841e2",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "comparison_hist_boxplot_erros": {
+    "original_cell_index": 83,
+    "source_sha256": "15c76763305a697ac1b34d426d0721ee67eedfea2ab99400cbd12cf0ffd96dd6",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "comparison_metric": {
+    "original_cell_index": 85,
+    "source_sha256": "cb5640093efc1ec83af57a9cd4014297a52c3c5ab55603ade8674716a8a3644d",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "comparison_metric_new": {
+    "original_cell_index": 86,
+    "source_sha256": "69b13ec12cc0d495594f331f239b0f705f3a5bc4b4e884c3cdf7b1f090ec5d1c",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "comparison_metric_global": {
+    "original_cell_index": 87,
+    "source_sha256": "b7ae38650c68e6e5ac7eb6b92aa4bd374aa9c729ac36e5210ac538950b62d68a",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "comparison_metric_all": {
+    "original_cell_index": 88,
+    "source_sha256": "437726ad45133cfd34939b46b0227dc2983ccc5ea55099f6c56b266b689fc7be",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "correlation_matrix": {
+    "original_cell_index": 135,
+    "source_sha256": "c91637734c7012ecd1ae5301929fdcb2c90256d4859145d53d1f0b90a842d4ba",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "corr_decomposition": {
+    "original_cell_index": 135,
+    "source_sha256": "9e9cbc010c03354ebad0282b3d36fee4dfc0ab543ef877f010e99abd25686502",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "MI_matrix": {
+    "original_cell_index": 136,
+    "source_sha256": "47d2e1e84fa2ad42846efc697708250f210a5320c5ac4388a43bfe409aba5196",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "imutua_decomposition": {
+    "original_cell_index": 136,
+    "source_sha256": "a20bc331608ce2188bcd1358fe559a017c88f7eb521d83aaaaa965f20ba98331",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "pca_decomposition": {
+    "original_cell_index": 141,
+    "source_sha256": "047f7eee59019317496e614bc4218de1549291479ad76cfdf3c48d6d3cbe7bd9",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "ica_decomposition": {
+    "original_cell_index": 146,
+    "source_sha256": "012ce2018c0b3e993f5adad75f929aee574ef0a46546dc6165841625ab036180",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "integrated_plots_in_ETA_ET_geral_with_ranges": {
+    "original_cell_index": 247,
+    "source_sha256": "c01f0040170a75120b0cb03d0d9ad8966b536dd7942450ceefe423905aeca1bd",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "box_plot_comparison_geral": {
+    "original_cell_index": 248,
+    "source_sha256": "b97e70abbd2fc6dae15a691f40454cf9a4f9c1ee53f8b2392514c29d95d2578d",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "boxplot_comparison_improved": {
+    "original_cell_index": 249,
+    "source_sha256": "27d9b7100fd23c7aa9d2590def1e5d3b301446a8b2050f4334cb9acc86966928",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "plota_energy_alpha_scatter_por_metodo": {
+    "original_cell_index": 273,
+    "source_sha256": "0b30a3c33dd2e5bf4980f3e8873a71a1edbc8cbe9c66094f97650d0a6e1ee54b",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "plota_stats_tests_intervals": {
+    "original_cell_index": 286,
+    "source_sha256": "bf4938133d792506ee8e594048b2e587e6ce4833086a10b7432527a1c1f1415c",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "plota_stats_tests_intervals_h": {
+    "original_cell_index": 287,
+    "source_sha256": "f14fd192d61b3962ce4ef7c08fd8cda4099e960186eb54d06cdca457b9d7ebe9",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "integrated_plots_in_ETA_geral": {
+    "original_cell_index": 627,
+    "source_sha256": "d3f7eec45e71b2aacfc3bc554ab03fcae7b05a643b2798b244dadb5953234e00",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "integrated_plots_in_ET_geral": {
+    "original_cell_index": 631,
+    "source_sha256": "21ef70629632b31e5cde631f521521447c458d91e577ebd58102be87061886d3",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "boxplot_comparison": {
+    "original_cell_index": 649,
+    "source_sha256": "d38f49f5890580a9ae0778cfc1327a433862060cb296990d90818d7265a2668d",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "ordenar_dataframe_por_lista": {
+    "original_cell_index": 755,
+    "source_sha256": "76f2200ae4fd97d93bb8303082bd007b4e0eb4ee83f9ceda47f524205ebc1ea1",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "plota_histograma_erros": {
+    "original_cell_index": 755,
+    "source_sha256": "2820b45319f2e7e72563a88859922a68e771a1430e34af32ca515f99cc18cf10",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "ordena_e_plota_histogramas": {
+    "original_cell_index": 755,
+    "source_sha256": "e569239ad0d39bc27e32fd12658576fedbb2527688843aad662a5693468384ba",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "plotar_resolucao": {
+    "original_cell_index": 782,
+    "source_sha256": "1b986343dc50c91b0e861cee4137f8eae00b8a2c14ed1da2a52eb63c404cb1ec",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "plotar_resolucao_multipla": {
+    "original_cell_index": 782,
+    "source_sha256": "bddefbc748fbcaba56a08cdb03ce313224a83271dbde9a0b48260b1f17d9d2d0",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "calcular_resolucao_com_incerteza": {
+    "original_cell_index": 782,
+    "source_sha256": "8600c2ced7ef4cac6cc02b21547f430224d4dd583f3910476bdd8939a8f4def5",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "calcular_ganho_com_incerteza": {
+    "original_cell_index": 782,
+    "source_sha256": "367eb9e74f1cdaebb7df7bc62d6e099d6acc4455245c1a9fa45c7141f48eb921",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "_iqr": {
+    "original_cell_index": 783,
+    "source_sha256": "3362b6266d98b4f7aae47cf7eed5034799c72ac0143daf8cb9c3e96a45b5fd82",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "_make_bin_edges": {
+    "original_cell_index": 783,
+    "source_sha256": "8b75128b91433c9c2831f67a6f82d41bdee679111d3f7fd295d6ab914b1fd46e",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "compute_resolution_by_energy": {
+    "original_cell_index": 783,
+    "source_sha256": "6d2737c9c7a9bfa73050f23d17fd1ac1e658d98da9e2b3a45f07a044fb9fd97a",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "plot_resolution_curves": {
+    "original_cell_index": 783,
+    "source_sha256": "1462169cc59480f673b59db585b3ce091719ec1f5983655dacea6d3213972912",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "global_resolution_with_uncertainty": {
+    "original_cell_index": 783,
+    "source_sha256": "923ff1637c376df91e30371c95fd70e760adcb26a051cd8f6adc8c710af78d2d",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "resolution_gain_with_uncertainty": {
+    "original_cell_index": 783,
+    "source_sha256": "dba0817a8b1f79607495f78215d03fc02d54befaa9c3660bfab4a3eaba71445b",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "testar_normalidade": {
+    "original_cell_index": 788,
+    "source_sha256": "a5920d3e6a1fc394a8e85a7ed96f3960afac4ac925004dbcf83118dcd96258cc",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "qq_plot": {
+    "original_cell_index": 788,
+    "source_sha256": "709a55dd4ac25bea3095d36ddf359c5aa36ca42d578f987944fc698eaa579ff3",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "teste_t_pareado": {
+    "original_cell_index": 788,
+    "source_sha256": "c8d4737ab97f128101af9ffc03f97c2528e44d5b4043fb2730e1580a269219d8",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "teste_z_pareado": {
+    "original_cell_index": 788,
+    "source_sha256": "8b81b3c3afa6c56a50fe9c16cbf6fa01292abb67599fca01950f3f35c983868c",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "teste_f_pareado": {
+    "original_cell_index": 788,
+    "source_sha256": "e9a3b6c86c2d7b9908c470c4248cac183a8ecc844659689e5d73742304d65b5c",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "teste_wilcoxon_pareado": {
+    "original_cell_index": 788,
+    "source_sha256": "cb40e805bc68850eeaf2765ee5b2c384d3abad96c949491e8ee0a6fc9461df13",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "teste_t_pareado_less": {
+    "original_cell_index": 788,
+    "source_sha256": "560645c65c24a20e562b401973743d49c9a3b7b7566bccbeca6ca78a560a992b",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "pitman_morgan_less": {
+    "original_cell_index": 788,
+    "source_sha256": "7b3a43c321789531cfbb847cbf5a4597038a3dfa7852651e45b2a9bb043e208d",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "teste_z_pareado_less": {
+    "original_cell_index": 788,
+    "source_sha256": "2a659fcc273f417dd2502cfc8708197730303aacdf7a8ba7fcae248317772919",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "teste_f_indep_less": {
+    "original_cell_index": 788,
+    "source_sha256": "968d9a83719fb15bf6bbf6674e3699fadeb610576bf0e41ddad71aec596f136f",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "wilcoxon_pareado_less": {
+    "original_cell_index": 788,
+    "source_sha256": "5057e0c6c026e625c6cfa79180c76ad356cc705c69c01af9a3ab2bf8cab24b4b",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "var_ratio_pareado_boot_perm_less": {
+    "original_cell_index": 788,
+    "source_sha256": "8af0520ac3de23a76d2f70b318b5041c9a4bb1a71d92be0124552552c203f772",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "trans_reg_to_cls": {
+    "original_cell_index": 831,
+    "source_sha256": "e3793e7e062b6f1cf14990cf507973e39d01d44bebee6a1bdec06632414cf70f",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "count_true_false": {
+    "original_cell_index": 831,
+    "source_sha256": "73e6495893bb7647f31d18a5058e7d123dec20b5808dfa558501d8b279c9e838",
+    "source_match": true,
+    "mathtext_compatibility": false
+  },
+  "lambda_analysis": {
+    "original_cell_index": 831,
+    "source_sha256": "7a9d88f62f2f3f525304904612d39acf28170230c220bdb2768f6b61f26a4fe9",
+    "source_match": true,
+    "mathtext_compatibility": true
+  }
+}

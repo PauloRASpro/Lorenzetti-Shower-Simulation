@@ -1,0 +1,56 @@
+# Keep source and documentation; do not accidentally publish huge unvalidated data/results
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+.env
+.env.*
+results/local/
+data/raw/
+data/splits/local/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.npz
+*.log
+.DS_Store
+
+# Default: avoid committing arbitrary executable/large model pickles.
+# ONLY the following named summary/event artifacts in the TOP LEVEL of
+# artifacts/pickles/ are explicitly permitted for Git LFS publishing.
+artifacts/pickles/*
+!artifacts/pickles/README.md
+!artifacts/pickles/*_noSEG_Full_DF.pkl
+!artifacts/pickles/*_noSEG_Full_DF.pkl.gz
+!artifacts/pickles/*_noSEG_cv_metrics_df.pkl
+!artifacts/pickles/*_noSEG_cv_metrics_df.pkl.gz
+!artifacts/pickles/*_noSEG_performance_metrics.pkl
+!artifacts/pickles/*_noSEG_performance_metrics.pkl.gz
+!artifacts/pickles/integrated_result_*_noSEG_Full_DF.pkl
+!artifacts/pickles/integrated_result_*_noSEG_Full_DF.pkl.gz
+# Historical *_noSEG_times.pkl[.gz] remain ignored: large fitted estimator objects.
+# Upload model binaries separately only after explicit size/security review.
+# Derived replay plots and temporary metrics
+results/replayed/
+artifacts/manifests/*.json
+!artifacts/manifests/README.md
+
+# Numeric metadata is small and may be committed normally
+!artifacts/metadata/
+!artifacts/metadata/*.csv
+
+# Local fitted estimators and generated predictions
+artifacts/trained_models/
+artifacts/csv/*.csv
+artifacts/new_runs/
+!artifacts/pickles/*_noSEG_erros_data.pkl
+!artifacts/pickles/*_noSEG_erros_data.pkl.gz
+!artifacts/pickles/*_noSEG_erros_data_alpha.pkl
+!artifacts/pickles/*_noSEG_erros_data_alpha.pkl.gz
+!artifacts/pickles/result_*_noSEG_Full_DF.pkl
+!artifacts/pickles/result_*_noSEG_Full_DF.pkl.gz
+
+# New fitted models and runs are local unless explicitly published.
+/artifacts/new_runs/

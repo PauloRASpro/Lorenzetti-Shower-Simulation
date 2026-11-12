@@ -1,0 +1,1 @@
+The thesis does not preserve final tuned configurations for BDT ICA-5 and PCA-10 in Table 29; they appear in published result Table 12. These remain **reference-only** for historical reproduction. A new nested search can select fresh parameters, but it must not be misrepresented as a recovered historical configuration.

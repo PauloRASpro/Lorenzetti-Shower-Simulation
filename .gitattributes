@@ -1,0 +1,6 @@
+# Explicit historical artifact sharing via Git LFS (requires Git LFS installed).
+# The files still have to be supplied by the research author.
+artifacts/pickles/*.pkl filter=lfs diff=lfs merge=lfs -text
+artifacts/pickles/*.pkl.gz filter=lfs diff=lfs merge=lfs -text
+artifacts/pickles/**/*.pkl filter=lfs diff=lfs merge=lfs -text
+artifacts/pickles/**/*.pkl.gz filter=lfs diff=lfs merge=lfs -text

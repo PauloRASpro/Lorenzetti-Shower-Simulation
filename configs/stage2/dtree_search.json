@@ -1,0 +1,28 @@
+{
+  "source": "Thesis Appendix A, Table 28",
+  "grid": {
+    "min_samples_leaf": [
+      24,
+      32
+    ],
+    "min_samples_split": [
+      24,
+      32
+    ],
+    "max_depth": [
+      10
+    ],
+    "max_features": [
+      1.0
+    ],
+    "criterion": [
+      "squared_error"
+    ],
+    "ccp_alpha": [
+      0
+    ],
+    "random_state": [
+      0
+    ]
+  }
+}

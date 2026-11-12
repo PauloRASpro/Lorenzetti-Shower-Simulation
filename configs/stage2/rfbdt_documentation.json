@@ -1,0 +1,26 @@
+{
+  "source": "Thesis Appendix A, Tables 28–29",
+  "notes": "Full residual RF+BDT code not yet isolated and verified; not available as runnable adapter. Do not claim Stage II full reconstruction.",
+  "parameters_fixed": {
+    "rf_n_estimators": 1000,
+    "rf_max_depth": 10,
+    "rf_max_features": 1.0,
+    "rf_max_samples": 0.7,
+    "rf_bootstrap": true,
+    "gb_feature_fraction": 1.0,
+    "gb_bagging_fraction": 0.7,
+    "gb_bagging_freq": 1,
+    "gb_learning_rate": 0.05,
+    "gb_lambda_l2": 0,
+    "gb_n_estimators": 1000,
+    "val_fraction": 0.1,
+    "early_stopping_rounds": 50,
+    "random_state": 0
+  },
+  "selected_rings100": {
+    "rf_min_samples_leaf": 24,
+    "rf_min_samples_split": 24,
+    "gb_num_leaves": 127,
+    "gb_min_child_samples": 24
+  }
+}

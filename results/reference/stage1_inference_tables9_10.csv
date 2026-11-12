@@ -1,0 +1,5 @@
+configuration,z_paired,p_upper_bound,unilateral_95_ci_upper_mev,wilcoxon_decision,variance_ratio,variance_reduction_pct,pitman_morgan_upper_95
+BDT no-Bin: PCA-10,-351.7106,<1e-300,-2731.04,reject H0,0.323,67.7,0.3472
+BDT no-Bin: CORR-90,-540.8462,<1e-300,-2688.43,reject H0,0.7349,26.51,0.7642
+BDT no-Bin: MUTI-80,-623.1838,<1e-300,-2644.0,reject H0,0.7914,20.86,0.8147
+BDT no-Bin: MUTI-50,-540.8462,<1e-300,-2688.43,reject H0,0.7349,26.51,0.7642

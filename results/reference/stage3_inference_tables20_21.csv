@@ -1,0 +1,5 @@
+configuration,z_paired,p_upper_bound,unilateral_95_ci_upper_mev,wilcoxon_decision,variance_ratio,variance_reduction_pct,pitman_morgan_upper_95
+DNN no-Bin: Rings[1:100],-324.5005,<1e-300,-2866.32,reject H0,0.2555,74.45,0.285
+DNN no-Bin: CORR-10,-392.2214,<1e-300,-2859.67,reject H0,0.4492,55.08,0.4861
+DNN no-Bin: ICA-10,-325.9147,<1e-300,-2779.7,reject H0,0.382,61.8,0.4174
+GNN no-Bin: Rings[1:100],-317.7842,<1e-300,-2721.46,reject H0,0.2356,76.44,0.2555

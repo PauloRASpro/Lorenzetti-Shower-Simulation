@@ -1,0 +1,6 @@
+configuration,delta_lambda90_mev,reduction_pct
+Standard FastCalo,5491.13,
+DNN no-Bin: CORR-10,2251.02,59.01
+DNN no-Bin: ICA-10,2302.18,58.07
+DNN no-Bin: Rings[1:100],1892.9,65.53
+GNN no-Bin: Rings[1:100],1892.9,65.53

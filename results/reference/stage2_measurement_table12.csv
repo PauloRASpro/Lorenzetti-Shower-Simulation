@@ -1,0 +1,6 @@
+configuration,iqr_mev,iqr_sd_mev,rmse_mev,rmse_sd_mev,iqr_reduction_pct,rmse_reduction_pct,time_ms_per_event_thesis,n_external_features,d0_mev,D0
+Standard FastCalo,2457.11,9.89,3967.12,6.74,,,0,1,4666.42,1.0
+BDT no-Bin: ICA-5,1831.83,7.1,1933.91,6.4,25.45,51.25,0.004,5,2663.76,0.23
+BDT no-Bin: PCA-10,1779.06,7.01,1931.01,6.4,27.6,51.32,0.00692,10,2625.62,0.23
+BDT no-Bin: Rings[1:100],1384.8,5.26,1579.93,5.24,43.64,60.17,0.0595,100,2100.92,1.03
+RFBDT no-Bin: Rings[1:100],1390.96,5.76,1562.75,5.19,43.39,60.61,0.208,100,2092.11,1.29

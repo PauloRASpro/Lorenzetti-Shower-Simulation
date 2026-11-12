@@ -1,0 +1,6 @@
+configuration,delta_lambda90_mev,reduction_pct
+Standard FastCalo,5491.13,
+BDT no-Bin: ICA-5,2421.55,55.9
+BDT no-Bin: PCA-10,2353.34,57.14
+BDT no-Bin: Rings[1:100],1858.8,66.15
+RFBDT no-Bin: Rings[1:100],1858.8,66.15

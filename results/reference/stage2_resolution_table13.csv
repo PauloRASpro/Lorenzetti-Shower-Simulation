@@ -1,0 +1,6 @@
+configuration,sigma_E_over_E,sigma_uncertainty,improvement_pct
+Standard FastCalo,0.0246,5.8e-05,
+BDT no-Bin: ICA-5,0.0167,3.9e-05,31.98
+BDT no-Bin: PCA-10,0.0167,3.9e-05,32.05
+BDT no-Bin: Rings[1:100],0.0137,3.2e-05,44.36
+RFBDT no-Bin: Rings[1:100],0.0135,3.2e-05,44.96

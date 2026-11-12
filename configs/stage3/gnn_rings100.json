@@ -1,0 +1,27 @@
+{
+  "parameters": {
+    "node_hidden": 64,
+    "graph_hidden": 128,
+    "tab_hidden": 256,
+    "num_graph_layers": 2,
+    "ring_hops": 1,
+    "dropout": 0.05,
+    "epochs": 65,
+    "batch_size": 256,
+    "lr": 0.001,
+    "weight_decay": 1e-06,
+    "early_stopping_patience": 12,
+    "validation_fraction": 0.1,
+    "min_delta": 1e-08,
+    "lambda_mse": 0.7,
+    "huber_beta": 1.1,
+    "max_train_samples": 300000,
+    "scale_y": true,
+    "graph_scale_init": 0.05,
+    "random_state": 0,
+    "device": "cpu",
+    "verbose": false
+  },
+  "source": "Thesis Appendix A, Table 31; notebook cell 564; verified matching",
+  "status": "documented final configuration"
+}

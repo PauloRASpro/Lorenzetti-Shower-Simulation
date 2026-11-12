@@ -1,0 +1,6 @@
+configuration,d0_gev,d0_reduction_pct,time_ms_per_event_thesis,n_external_features
+BDT no-Bin: PCA-10,2.33,51.14,9.35,10
+BDT no-Bin: CORR-90,3.2,33.0,3.29,4
+BDT no-Bin: MUTI-50,3.2,32.98,4.35,4
+BDT no-Bin: MUTI-80,3.39,29.05,2.22,2
+BDT no-Bin: ICA-2,3.39,29.05,1.91,2

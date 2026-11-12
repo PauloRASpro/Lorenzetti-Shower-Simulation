@@ -1,0 +1,29 @@
+original_cell,scientific_analysis,original_image_outputs,implemented_via
+702,Global d0 ranking,1,original_plotting / original_replay / full_results_replay
+705,Composite d0 ranking,1,original_plotting / original_replay / full_results_replay
+708,Measured processing times,1,original_plotting / original_replay / full_results_replay
+713,Error vs processing time,1,original_plotting / original_replay / full_results_replay
+722,Error vs selected input count,1,original_plotting / original_replay / full_results_replay
+733,D0 ranking,1,original_plotting / original_replay / full_results_replay
+734,d0 ordered by D0,1,original_plotting / original_replay / full_results_replay
+735,D0 ordered by d0,1,original_plotting / original_replay / full_results_replay
+736,IQR vs RMSE,1,original_plotting / original_replay / full_results_replay
+739,Error vs prediction time,1,original_plotting / original_replay / full_results_replay
+741,Error vs features,1,original_plotting / original_replay / full_results_replay
+746,Comparison across models for each representation,3,original_plotting / original_replay / full_results_replay
+747,Comparison across feature families,6,original_plotting / original_replay / full_results_replay
+749,Top-ten error histogram and boxplot,1,original_plotting / original_replay / full_results_replay
+756,Top-ten residuals by d0,1,original_plotting / original_replay / full_results_replay
+757,Top-ten residuals by D0,1,original_plotting / original_replay / full_results_replay
+767,IQR/RMSE quadrant scatter,1,original_plotting / original_replay / full_results_replay
+789,Error normality and QQ,3,original_plotting / original_replay / full_results_replay
+805,Paired normality and QQ,12,original_plotting / original_replay / full_results_replay
+814,Single-configuration resolution curves,4,original_plotting / original_replay / full_results_replay
+815,Comparative resolution,1,original_plotting / original_replay / full_results_replay
+816,Resolution with uncertainty,1,original_plotting / original_replay / full_results_replay
+826,Calibrated energy scatter,4,original_plotting / original_replay / full_results_replay
+836,EAR comparisons,4,original_plotting / original_replay / full_results_replay
+846,ETA/ET regional curves and distributions,18,original_plotting / original_replay / full_results_replay
+848,ETA/ET regional boxplots,2,original_plotting / original_replay / full_results_replay
+874,Performance summary,1,original_inline_figures
+876,Accuracy-efficiency tradeoff,1,original_inline_figures

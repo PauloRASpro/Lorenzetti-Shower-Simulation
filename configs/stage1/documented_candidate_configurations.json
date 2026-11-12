@@ -1,0 +1,35 @@
+{
+  "status": "candidate values from Appendix A Table 27; not recovered final winners",
+  "models": {
+    "mlr": {},
+    "preg": {
+      "degree": 2
+    },
+    "dtree": {
+      "criterion": "squared_error",
+      "max_depth": 10,
+      "ccp_alpha": 0,
+      "max_features": 1.0,
+      "min_samples_leaf": 24,
+      "min_samples_split": 24,
+      "random_state": 0
+    },
+    "bdt": {
+      "num_leaves": 127,
+      "min_child_samples": 24,
+      "feature_fraction": 1.0,
+      "bagging_fraction": 0.7,
+      "bagging_freq": 1,
+      "learning_rate": 0.05,
+      "lambda_l1": 0,
+      "lambda_l2": 0,
+      "max_depth": 10,
+      "min_gain_to_split": 0,
+      "n_estimators": 1000,
+      "objective": "regression",
+      "boosting_type": "gbdt",
+      "random_state": 0
+    }
+  },
+  "warning": "NOT claimed to reconstruct original Stage I selected hyperparameters"
+}

@@ -1,0 +1,10 @@
+configuration,iqr_gev,rmse_gev,d0_gev,iqr_reduction_pct,rmse_reduction_pct,d0_reduction_pct
+Standard FastCalo,2.47,4.09,4.78,,,
+BDT no-Bin: PCA-100,1.38,1.72,2.21,44.13,57.95,53.85
+BDT no-Bin: PCA-10,1.6,1.7,2.33,35.22,58.44,51.14
+BDT no-Bin: ICA-100,1.47,2.05,2.52,40.49,49.88,47.2
+BDT no-Bin: ICA-10,1.61,2.05,2.61,34.82,49.88,45.44
+BDT no-Bin: CORR-50,1.78,2.39,2.98,27.94,41.56,37.63
+BDT no-Bin: CORR-70,1.87,2.45,3.08,24.29,40.1,35.49
+BDT no-Bin: MUTI-50,1.91,2.57,3.2,22.67,37.16,32.98
+BDT Bin: MUTI-50,1.91,2.65,3.27,22.67,35.21,31.63

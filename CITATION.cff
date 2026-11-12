@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: >
+  Please cite the corresponding research article for the experiment used,
+  the doctoral thesis, and the Lorenzetti dataset/framework as appropriate.
+type: software
+title: Reproducibility materials for Lorenzetti electron transverse-energy calibration
+authors:
+  - family-names: da Silva
+    given-names: Paulo Roberto Araujo
+repository-code: https://github.com/PauloRASpro/Lorenzetti-Shower-Simulation
+version: 0.2.0
+keywords:
+  - Lorenzetti
+  - calorimeter calibration
+  - electron energy
+  - machine learning
+  - information fusion

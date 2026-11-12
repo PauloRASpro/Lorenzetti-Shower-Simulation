@@ -1,0 +1,6 @@
+configuration,iqr_mev,iqr_sd_mev,rmse_mev,rmse_sd_mev,iqr_reduction_pct,rmse_reduction_pct,time_ms_per_event_thesis,n_external_features,d0_mev,D0
+Standard FastCalo,2457.11,9.89,3967.12,6.74,,,0,1,4666.42,1.0
+DNN no-Bin: CORR-10,1748.78,6.95,1905.63,6.31,28.83,51.96,0.00138,10,2586.43,0.25
+DNN no-Bin: ICA-10,1754.19,6.81,1754.95,5.82,28.61,55.76,0.00152,10,2481.34,0.21
+DNN no-Bin: Rings[1:100],1419.48,5.73,1439.35,4.75,42.23,63.72,0.00405,100,2021.55,1.0
+GNN no-Bin: Rings[1:100],1404.9,5.28,1378.77,4.57,42.82,65.25,0.153,100,1968.44,1.17

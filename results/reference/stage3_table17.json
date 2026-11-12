@@ -1,0 +1,35 @@
+{
+  "Standard FastCalo": {
+    "iqr_mev": 2457.11,
+    "rmse_mev": 3967.12,
+    "d0_mev": 4666.42
+  },
+  "DNN no-Bin: CORR-10": {
+    "iqr_mev": 1748.78,
+    "rmse_mev": 1905.63,
+    "d0_mev": 2586.43,
+    "rmse_reduction_pct": 51.96,
+    "iqr_reduction_pct": 28.83
+  },
+  "DNN no-Bin: ICA-10": {
+    "iqr_mev": 1754.19,
+    "rmse_mev": 1754.95,
+    "d0_mev": 2481.34,
+    "rmse_reduction_pct": 55.76,
+    "iqr_reduction_pct": 28.61
+  },
+  "DNN no-Bin: Rings[1:100]": {
+    "iqr_mev": 1419.48,
+    "rmse_mev": 1439.35,
+    "d0_mev": 2021.55,
+    "rmse_reduction_pct": 63.72,
+    "iqr_reduction_pct": 42.23
+  },
+  "GNN no-Bin: Rings[1:100]": {
+    "iqr_mev": 1404.9,
+    "rmse_mev": 1378.77,
+    "d0_mev": 1968.44,
+    "rmse_reduction_pct": 65.25,
+    "iqr_reduction_pct": 42.82
+  }
+}

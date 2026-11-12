@@ -1,0 +1,3 @@
+# GitHub Desktop setup
+
+Clone the existing repository. Copy the contents of this package into the local clone, retaining the already published `data/` archives. Put original experimental pickles under `artifacts/pickles/`; they are protected by the training interface. Before pushing very large binary archives, check file sizes and Git LFS quotas. Open one of the three notebooks, select the run mode described in `GETTING_STARTED.md`, and choose Restart & Run All. The newly generated run directories under `artifacts/new_runs/` can be kept local; only publish archives intentionally and within GitHub storage limits.

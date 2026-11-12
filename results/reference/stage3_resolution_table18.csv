@@ -1,0 +1,6 @@
+configuration,sigma_E_over_E,sigma_uncertainty,improvement_pct
+Standard FastCalo,0.0246,5.8e-05,
+DNN no-Bin: CORR-10,0.0165,3.9e-05,32.98
+DNN no-Bin: ICA-10,0.0152,3.6e-05,38.2
+DNN no-Bin: Rings[1:100],0.0124,2.9e-05,49.46
+GNN no-Bin: Rings[1:100],0.0119,2.8e-05,51.46
